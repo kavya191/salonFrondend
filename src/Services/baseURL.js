@@ -1,2 +1,2 @@
-const BASE_URL='http://localhost:4000'
+const BASE_URL='https://serversalon.onrender.com'
 module.exports=BASE_URL
