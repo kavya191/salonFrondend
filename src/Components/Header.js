@@ -39,7 +39,7 @@ const Header = () => {
   const addEnquiry=async()=>{
     const result=await userEnquiryApi(input)
     if(result.status>=200 && result.status<300){
-       navigate('/service')
+       navigate('/')
       setShow(false)
     }
     console.log(input);
